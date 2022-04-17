@@ -1,4 +1,4 @@
-function [a0, an, bn, fs] = Lab4_Ex3(f,flim,N)
+function [a0, an, bn, fs] = fourier_series(f,flim,N)
 
 %Here, I made t a symbolic variable
 syms t
