@@ -10,7 +10,6 @@ The code comments have a detailed explanation of both the Maths and the logic
 
 # Usage from Command Window
 
-Below is an example:
 ```MATLAB
 syms t; %a symbolic variable
 f = [t + pi, pi - t]; %array containing one or more functions
@@ -19,6 +18,7 @@ N = 5; %Fourier series order
 [a0, an, bn, fs] = fourierSeries(f,flim,N) %call function and plot Fourier Series for visualisation
 ```
 # Usage from MATLAB Script
+
 ```MATLAB
 syms t;
 f = [t + pi, pi - t];
