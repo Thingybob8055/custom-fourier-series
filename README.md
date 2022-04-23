@@ -13,7 +13,7 @@ The code comments have a detailed explanation of both the Maths and the logic
 ```MATLAB
 syms t; %a symbolic variable
 f = [t + pi, pi - t]; %array containing one or more functions
-flim = [ -3.1416    3.1416];%function limits
+flim = [ -3.1416    3.1416]; %function limits
 N = 5; %Fourier series order
 [a0, an, bn, fs] = fourierSeries(f,flim,N) %call function and plot Fourier Series for visualisation
 ```
