@@ -14,7 +14,7 @@ The two sections below shows example usages for these functions.
 ```MATLAB
 syms t; %a symbolic variable
 f = [t + pi, pi - t]; %array containing one or more functions
-flim = [ -3.1416    3.1416]; %function limits
+flim=[-pi, 0, +pi]; %function limits
 N = 5; %Fourier series order
 [a0, an, bn, fs] = fourierSeries(f,flim,N) %call function and plot Fourier Series for visualisation
 ```
@@ -23,7 +23,10 @@ N = 5; %Fourier series order
 ```MATLAB
 syms t;
 f = [t + pi, pi - t];
-flim = [ -3.1416    3.1416];
+flim=[-pi, 0, +pi];
 N = 5;
 fourierSeries(f,flim,N)
 ```
+# Example Plot
+
+<img src="screenshot/plot.png" width="430">
