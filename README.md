@@ -6,8 +6,9 @@ The custom function made here can go to any order n based on user input, and can
 
 The code plots both the Fourier Series and the input function to a figure for comparison. Larger the Fourier Series order, the longer the computation.
 
-The code comments have a detailed explanation of both the Maths and the logic
+The code comments have a detailed explanation of both the Maths and the logic.
 
+The two sections below shows example usages for these functions.
 # Usage from Command Window
 
 ```MATLAB
