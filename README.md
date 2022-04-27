@@ -9,6 +9,9 @@ The code plots both the Fourier Series and the input function to a figure for co
 The code comments have a detailed explanation of both the Maths and the logic.
 
 The two sections below shows example usages for these functions.
+
+
+MATLAB Symbolic Toolbox is required to use this.
 # Usage from Command Window
 
 ```MATLAB
@@ -29,4 +32,4 @@ fourierSeries(f,flim,N)
 ```
 # Example Plot
 
-<img src="screenshot/plot.png" width="470">
+<img src="screenshot/example-plot.png" width="470">
