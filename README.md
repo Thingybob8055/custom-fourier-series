@@ -29,4 +29,4 @@ fourierSeries(f,flim,N)
 ```
 # Example Plot
 
-<img src="screenshot/plot.png" width="430">
+<img src="screenshot/plot.png" width="470">
